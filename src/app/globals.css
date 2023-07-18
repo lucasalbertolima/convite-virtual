@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 244, 242;
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  margin: 0;
+  padding: 0;
+}
+
+.bg-green-500 {
+  background-color: #869781;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Classes para zerar margens e preenchimentos */
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
