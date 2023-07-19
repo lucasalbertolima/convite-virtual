@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import { navigationLinks } from '../../utils/data';
 
+type mobileProps = {
+  acao: () => void;
+}
+
 export const NavLinkPc = () => {
     return (
       <ul className="flex space-x-4 py-2">
@@ -14,12 +18,12 @@ export const NavLinkPc = () => {
   };
   
 
-export const NavLinkMobile = () => {
+export const NavLinkMobile = ({ acao }: mobileProps) => {
     return (
       <ul className="py-4">
         {navigationLinks.map((link, index) => (
             <li key={index} className="my-4" >
-                 <Link href={link.path}>{link.label}</Link>
+                 <Link onClick={acao} className="p-10" href={link.path}>{link.label}</Link>
           </li>
         ))}
       </ul>

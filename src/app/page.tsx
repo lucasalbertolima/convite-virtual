@@ -1,5 +1,6 @@
 import Sliders from "@/components/Sliders"
 import ModelsConvite from "@/components/ModelsConvite"
+import Depositons from "@/components/Depositions"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { Aboutme } from "@/components/Aboutme"
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <main>
       <Sliders />
-      <section className="m-4">
+      <section id="modelos" className="m-4">
         <h1 className="text-2xl text-[#775614] font-bold text-center mb-4">Modelos</h1>
         <div className="flex flex-wrap justify-center">
           <ModelsConvite
@@ -45,9 +46,29 @@ export default function Home() {
                   </div>
           </div>
       </section>
-      <section className="m-0 flex justify-center lg:m-8">
+      <section id="sobre" className="m-0 sm:mb-8 md:mb-8 lg:m-8 flex justify-center">
         <Aboutme />
       </section>
+
+      <section  id="depoimentos" className="m-4">
+        <h1 className="text-2xl text-[#775614] font-bold text-center mb-4">
+          Depoimento de Clientes
+        </h1>
+        <div className="flex flex-wrap justify-center">
+          <Depositons
+            image="depoimento1.jpg"
+            estilo="w-full sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4"
+          />
+          <Depositons
+            image="depoimento2.jpg"
+            estilo="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4"
+          />
+          <Depositons
+            image="depoimento3.jpg"
+            estilo="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4"
+          />
+        </div>
+        </section>
       </main>
   )
 }

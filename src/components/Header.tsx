@@ -40,7 +40,7 @@ export const Header = () => {
             >
             &times;
             </button>
-            <NavLinkMobile />
+            <NavLinkMobile acao={toggleMenu} />
         </div>
         </nav>
 
