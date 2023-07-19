@@ -23,7 +23,9 @@ export const Aboutme = () => {
           </div>
         </div>
         <div className="m-0 w-full lg:w-1/2 flex justify-center">
-          <img src="sarahjandira.png" alt="Imagem" className="w-48 lg:w-80 h-auto" />
+            <div className="bg-white rounded-full  overflow-hidden">
+                <img src="sarahjandira.png" alt="Imagem" className="w-48 lg:w-80 h-auto" />
+            </div>
         </div>
       </div>
     );
