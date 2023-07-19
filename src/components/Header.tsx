@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { NavLinkMobile, NavLinkPc } from './NavLinks';
+import Link from 'next/link';
 
 
 export const Header = () => {
@@ -14,12 +15,14 @@ export const Header = () => {
   return (
     <header className="flex items-center justify-between py-4 px-8 bg-green-500 text-white">
       <div className="flex items-center">
+        <Link href={'/'}>
         <img
           src="logo.png" // Caminho da imagem do logotipo
           alt="Logo"
           width="100px" // Largura desejada da imagem
           className="mr-4"
         />
+        </Link>
       </div>
 
     {/* Menu de Navegação para PC */}

@@ -1,9 +1,9 @@
 import Sliders from "@/components/Sliders"
 import ModelsConvite from "@/components/ModelsConvite"
 import Depositons from "@/components/Depositions"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { Aboutme } from "@/components/Aboutme"
+import { FaWhatsapp } from "react-icons/fa6"
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -39,10 +39,13 @@ export default function Home() {
           />
         </div>
           <div className="fixed bottom-4 right-4 z-10">
+
                   <div
-                    className="bg-green-500 text-white rounded-full p-6 shadow-md cursor-pointer"
+                    className="bg-[#00a884] text-white rounded-full p-2 shadow-md cursor-pointer"
                   >
-                    <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+                    <Link target='_blank' href="https://api.whatsapp.com/send/?phone=5579988850190&text=Ol%C3%A1%20Sarah,%20vim%20pelo%20site%20quero%20saber%20mais%20sobre%20os%20convites&type=phone_number&app_absent=0">
+                    <p><FaWhatsapp size={30} /></p>
+                    </Link>
                   </div>
           </div>
       </section>
