@@ -46,9 +46,14 @@ export default function Home() {
                   </div>
           </div>
       </section>
+
+      <hr className="border-t border-[#775614] m-8" />
+
       <section id="sobre" className="m-0 sm:mb-8 md:mb-8 lg:m-8 flex justify-center">
         <Aboutme />
       </section>
+
+      <hr className="border-t border-[#775614] m-8" />
 
       <section  id="depoimentos" className="m-4">
         <h1 className="text-2xl text-[#775614] font-bold text-center mb-4">
