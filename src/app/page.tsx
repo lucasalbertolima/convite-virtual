@@ -2,6 +2,7 @@ import Sliders from "@/components/Sliders"
 import ModelsConvite from "@/components/ModelsConvite"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { Aboutme } from "@/components/Aboutme"
 
 export default function Home() {
   return (
@@ -43,6 +44,9 @@ export default function Home() {
                     <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                   </div>
           </div>
+      </section>
+      <section className="m-0 flex justify-center lg:m-8">
+        <Aboutme />
       </section>
       </main>
   )
