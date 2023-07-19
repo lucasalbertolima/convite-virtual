@@ -32,14 +32,9 @@ export const Header = () => {
         className={`fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50 transition-opacity duration-300 ${
             menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
+        onClick={toggleMenu}
         >
-        <div className="relative bg-green-500 rounded p-8">
-            <button
-            className="absolute top-2 right-2 text-white text-lg"
-            onClick={toggleMenu}
-            >
-            &times;
-            </button>
+        <div className="relative bg-green-500 rounded">
             <NavLinkMobile acao={toggleMenu} />
         </div>
         </nav>

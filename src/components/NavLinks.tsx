@@ -20,11 +20,11 @@ export const NavLinkPc = () => {
 
 export const NavLinkMobile = ({ acao }: mobileProps) => {
     return (
-      <ul className="py-4">
+      <ul className="">
         {navigationLinks.map((link, index) => (
-            <li key={index} className="my-4" >
-                 <Link onClick={acao} className="p-10" href={link.path}>{link.label}</Link>
-          </li>
+            <li key={index} className="" >
+                 <Link onClick={acao} href={link.path}><p className="py-10 px-20">{link.label}</p></Link>
+            </li>
         ))}
       </ul>
     );
