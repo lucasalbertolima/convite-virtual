@@ -5,7 +5,11 @@ import { Aboutme } from "@/components/Aboutme"
 import { FaWhatsapp } from "react-icons/fa6"
 import Link from 'next/link'
 
+
 export default function Home() {
+
+  
+
   return (
     <main>
       <Sliders />

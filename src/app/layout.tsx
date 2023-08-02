@@ -11,7 +11,16 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Convite Virtual',
   description: 'Empresa especializada em criação de convite virtual.',
-}
+  openGraph: {
+    images: [
+      {
+        url: 'logo.png',
+        width: 1200, 
+        height: 630,
+      },
+    ],
+  },
+};
 
 export default function RootLayout({
   children,
