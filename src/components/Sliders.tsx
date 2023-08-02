@@ -27,6 +27,7 @@ export default () => {
         navigation
         loop
         pagination={{ clickable: true }}
+        autoplay={{ delay: 3000, pauseOnMouseEnter: true }}
       >
         {banners.map((item) => (
           <SwiperSlide key={item.id} className="p-0 m-0">
