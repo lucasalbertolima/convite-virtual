@@ -4,6 +4,8 @@ import Depositons from "@/components/Depositions"
 import { Aboutme } from "@/components/Aboutme"
 import { FaWhatsapp } from "react-icons/fa6"
 import Link from 'next/link'
+import { Header } from "@/components/Header"
+import { Footer } from "@/components/Footer"
 
 
 export default function Home() {
@@ -12,6 +14,7 @@ export default function Home() {
 
   return (
     <main>
+      <Header />
       <Sliders />
       <section id="modelos" className="m-4">
         <h1 className="text-2xl text-[#775614] font-bold text-center mb-4">Modelos</h1>
@@ -80,6 +83,8 @@ export default function Home() {
           />
         </div>
         </section>
+
+        <Footer />
       </main>
   )
 }

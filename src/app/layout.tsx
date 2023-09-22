@@ -31,11 +31,11 @@ export default function RootLayout({
     <html lang="pt-br">
       <body  className={`${inter.className} m-0 p-0`}>
       
-          <Header />
+          
 
-          <main>{children}</main>
+          {children}
 
-          <Footer />
+          
       </body>
     </html>
   )
