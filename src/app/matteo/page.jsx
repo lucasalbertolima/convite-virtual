@@ -5,9 +5,9 @@ export default function Home() {
     return(
         <main>
             <div className="w-full h-screen lg:w-1/4 lg:mx-auto lg:flex lg:justify-center lg:items-center">
-                <video controls poster="matteo.jpg">
-                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-virtual-11.appspot.com/o/convite%201%20aninho%20matteo.mp4?alt=media&token=16ec033f-b456-4100-9937-502c989ca2e1" type="video/mp4" />
-                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-virtual-12.appspot.com/o/convite%201%20aninho%20matteo.mp4?alt=media&token=8c5ff035-f305-43a4-8e95-498a307de969" type="video/mp4" />
+                <video controls poster="miguel-safari.jpeg">
+                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-by-sarahjandira.appspot.com/o/convite%20Miguel.mp4?alt=media&token=58e72db2-3a3a-4951-8513-22dfa304471f" type="video/mp4" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-digital-bysarahjandira.appspot.com/o/convite%20Miguel.mp4?alt=media&token=0a3ad05e-fb20-41ff-98f8-cd43a1547de6" type="video/mp4" />
                 </video>    
             </div>
         </main>
