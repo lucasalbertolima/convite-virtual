@@ -32,3 +32,18 @@ body {
 .p-0 {
   padding: 0;
 }
+
+.bg-cardapio {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/convite-sarah-02.appspot.com/o/Kyoto%20Cozinha%20Oriental%20(1).jpg?alt=media&token=18cc9e5b-f2c6-46fa-be9f-9877733633a3");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 660px;
+}
+
+.space-cardapio {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  padding-top: 9%;
+  padding-bottom: 10%;
+}
