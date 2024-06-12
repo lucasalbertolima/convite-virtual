@@ -35,7 +35,7 @@ export const Footer = () => {
         </div>
       </div>
       <p className="mt-4 text-center">
-        © 2023 Convite Virtual By Sarah Jandira. Todos os direitos reservados.
+        © 2024 Convite Virtual By Sarah Jandira. Todos os direitos reservados.
       </p>
     </footer>
   );
