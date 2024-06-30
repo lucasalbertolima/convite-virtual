@@ -6,8 +6,8 @@ export default function Home() {
         <main>
             <div className="w-full h-screen lg:w-1/4 lg:mx-auto lg:flex lg:justify-center lg:items-center">
                 <video controls poster="maria-eduarda.jpeg">
-                    <source src="https://firebasestorage.googleapis.com/v0/b/convitevirtual-7554a.appspot.com/o/video%20maria%20eduarda.mp4?alt=media&token=6cfe0bb9-bcca-46ef-9d2a-4b113ef10069" type="video/mp4" />
-                    <source src="https://firebasestorage.googleapis.com/v0/b/phd-global.appspot.com/o/video%20maria%20eduarda.mp4?alt=media&token=29925ba1-edf6-4ef7-8556-98c611db689b" type="video/mp4" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-virtual-videos.appspot.com/o/Convite%20especial%20maria%20Liz.mp4?alt=media&token=5f2593e2-4ec3-4427-b7e9-b5c0bb4dd382" type="video/mp4" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-virtual-3.appspot.com/o/Convite%20especial%20maria%20Liz.mp4?alt=media&token=3ffe4e03-58db-4ed0-98c3-25529afa5f84" type="video/mp4" />
                 </video>    
             </div>
         </main>
