@@ -2,7 +2,7 @@ import Sliders from "@/components/Sliders"
 import ModelsConvite from "@/components/ModelsConvite"
 import Depositons from "@/components/Depositions"
 import { Aboutme } from "@/components/Aboutme"
-import { FaWhatsapp } from "react-icons/fa6"
+import { FaCheck, FaWhatsapp } from "react-icons/fa6"
 import Link from 'next/link'
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
@@ -46,12 +46,19 @@ export default function Home() {
           />
         </div>
           <div className="fixed bottom-4 right-4 z-10">
-              <Link target='_blank' href="https://api.whatsapp.com/send/?phone=5579988850190&text=Ol%C3%A1%20Sarah,%20vim%20pelo%20site%20quero%20saber%20mais%20sobre%20os%20convites&type=phone_number&app_absent=0">
-                  <div
-                    className="bg-[#00a884] text-white rounded-full p-2 shadow-md cursor-pointer"
-                  >
-                    <p><FaWhatsapp size={30} /></p>
+              <Link target='_blank' href="https://api.whatsapp.com/send/?phone=5579988850190&text=Oi%20Sarah,%20quero%20fazer%20o%20meu%20convite%20virtual&type=phone_number&app_absent=0">
+                <div className="flex flex-row items-center space-x-1">
+                  <div className="walking-text flex flex-row items-center space-x-1 bg-green-100 text-xs px-3 py-2 lg:text-base lg:px-5 lg:py-2 rounded-md ">
+                    <img className="rounded-full " width={30} src="sarahperfilwhats.png" alt="" />
+                    <p className="font-bold text-gray-500">Fale Comigo agora mesmo!</p>
+                    <FaCheck size={12} className="text-gray-500" />
                   </div>
+                  <div
+                    className="bg-[#00a884] z-10 text-white rounded-full p-2 shadow-md cursor-pointer"
+                  >
+                    <p><FaWhatsapp size={36} /></p>
+                  </div>
+                </div>
               </Link>
           </div>
       </section>

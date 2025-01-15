@@ -14,9 +14,10 @@ import 'swiper/css/scrollbar';
 export default () => {
 
     const banners = [
-        {id: '1', image: 'banner3.jpg'},
-        {id: '2', image: 'banner2.jpg'},
-        {id: '3', image: 'banner1.jpg'},
+        {id: '1', image: 'banner1.webp'},
+        {id: '2', image: 'banner2.webp'},
+        {id: '3', image: 'banner3.webp'},
+        {id: '4', image: 'banner4.webp'},
     ]
 
     return (

@@ -29,7 +29,7 @@ export const Footer = () => {
               <Link target='_blank' href="https://www.instagram.com/convitevirtual_interativo_/" className="mr-6"><span><FaInstagram size={30} /></span></Link>
             </li>
             <li>
-              <Link target='_blank' href="https://api.whatsapp.com/send/?phone=5579988850190&text=Ol%C3%A1%20Sarah,%20vim%20pelo%20site%20quero%20saber%20mais%20sobre%20os%20convites&type=phone_number&app_absent=0" className="mr-6"><span><FaWhatsapp size={30} /></span></Link>
+              <Link target='_blank' href="https://api.whatsapp.com/send/?phone=5579988850190&text=Oi%20Sarah,%20quero%20fazer%20o%20meu%20convite%20virtual&type=phone_number&app_absent=0" className="mr-6"><span><FaWhatsapp size={30} /></span></Link>
             </li>
           </ul>
         </div>
