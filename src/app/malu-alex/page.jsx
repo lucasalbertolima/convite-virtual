@@ -1,13 +1,11 @@
-
-
 export default function Home() {
 
     return(
         <main>
             <div className="w-full h-screen lg:w-1/4 lg:mx-auto lg:flex lg:justify-center lg:items-center">
-                <video controls poster="maite-moranguinho.png">
-                    <source src="https://firebasestorage.googleapis.com/v0/b/apinoticias-with-next.appspot.com/o/Convite%20especial%20Moranguinho.mp4?alt=media&token=31e8593b-c553-4245-9560-a3fd68e57b5d" type="video/mp4" />
-                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-by-sarahjandira.appspot.com/o/Convite%20especial%20Moranguinho.mp4?alt=media&token=ea2d1545-3adb-499d-81f7-291234242002" type="video/mp4" />
+                <video controls poster="malu-alex.jpg">
+                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-virtual-videos.appspot.com/o/Convite%20Especial%20Malu%20e%20Alex.mp4?alt=media&token=424a8d9d-e9d8-48a7-8a43-1627be1453f1" type="video/mp4" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/convite-virtual-videos-2.appspot.com/o/Convite%20Especial%20Malu%20e%20Alex.mp4?alt=media&token=d43e8832-db2d-44e3-aa94-34964cc68224" type="video/mp4" />
                 </video>    
             </div>
         </main>
