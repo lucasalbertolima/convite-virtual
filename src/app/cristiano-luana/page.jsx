@@ -6,8 +6,8 @@ export default function Home() {
         <main>
             <div className="w-full h-screen lg:w-1/4 lg:mx-auto lg:flex lg:justify-center lg:items-center">
                 <video controls poster="cris-luana.png">
-                    <source src="https://firebasestorage.googleapis.com/v0/b/erismara-matteus.appspot.com/o/Convite%20Especial%20Mauri%CC%81cio%20e%20Fernanda%20(2).mp4?alt=media&token=cc93f065-9e71-4826-82ef-3733bffc0612" type="video/mp4" />
-                    <source src="https://firebasestorage.googleapis.com/v0/b/phd-global.appspot.com/o/Convite%20Especial%20Mauri%CC%81cio%20e%20Fernanda%20(2).mp4?alt=media&token=28221250-2c9e-4e46-871e-0a8d2975619a" type="video/mp4" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/o-ano-de-ouro-do-theo.appspot.com/o/Convite%20Especial%20C%26L.mp4?alt=media&token=8bf66d31-c51a-41e7-b6b2-2ef9d89a883d" type="video/mp4" />
+                    <source src="https://firebasestorage.googleapis.com/v0/b/michelle-thiago.appspot.com/o/Convite%20Especial%20C%26L.mp4?alt=media&token=e59ef756-8a34-474a-b2f5-2f71ca9c668c" type="video/mp4" />
                 </video>    
             </div>
         </main>
